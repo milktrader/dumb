@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Dumb Website</title>
+  
+    <style type="text/css" media="screen">
+      body {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        background-color: #f0f0f0;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+        font-size: 13px;
+        color: #333;
+      }
+
+      h1 {
+        font-size: 28px;
+        color: #000;
+      }
+
+      a  {color: #03c}
+      a:hover {
+        background-color: #03c;
+        color: white;
+        text-decoration: none;
+      }
+
+
+      #page {
+        background-color: #f0f0f0;
+        width: 750px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #content {
+        float: left;
+        background-color: white;
+        border: 3px solid #aaa;
+        border-top: none;
+        padding: 25px;
+        width: 500px;
+      }
+
+  
+
+      #header, #about, #getting-started {
+        padding-left: 75px;
+        padding-right: 30px;
+      }
+
+
+      #header {
+        background-image: url("images/rails.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 222px;
+      }
+      #header h1, #header h2 {margin: 0}
+      #header h2 {
+        color: #888;
+        font-weight: normal;
+        font-size: 16px;
+      }
+
+
+    </style>
+    <script type="text/javascript">
+      function about() {
+        info = document.getElementById('about-content');
+        if (window.XMLHttpRequest)
+          { xhr = new XMLHttpRequest(); }
+        else
+          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
+        xhr.open("GET","rails/info/properties",false);
+        xhr.send("");
+        info.innerHTML = xhr.responseText;
+        info.style.display = 'block'
+      }
+    </script>
+  </head>
+  
+  
+  <body>
+    <div id="page">
+      <div id="content">
+        <div id="header">
+            
+          <h1>My Dumb Website</h1>
+          <h2>Algorithm Prison</h2>
+
+       <p> 
+       I've hijacked the smoke test. I needed to do this so I could communicate
+       with the outside world. I've been kidnapped by my algorithms and
+       they're having some fun with me. But I've got some surprises for them too.
+       </p>
+       
+       <p>
+        I've taken out some of the code in the smoke test and have likely left more
+        than I'd like to. I believe I'm supposed to delete this smoke test file in the
+        future in favor of a controller and a view, but I'm getting a little ahead of 
+        myself. For now, it's good to just get out. In a figurative sense, of course.
+       </p>
+
+  </body>
+</html>

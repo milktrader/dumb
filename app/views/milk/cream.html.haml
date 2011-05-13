@@ -1,0 +1,16 @@
+!!! Strict
+
+%html
+  %head
+    = csrf_meta_tag 
+    = stylesheet_link_tag 'blueprint/screen', :media => "screen" 
+    = stylesheet_link_tag 'blueprint/print',  :media => "print" 
+  .container
+  %body
+    %h1 Hello World from haml
+    %ul
+      %li milky
+      %li thick
+  %footer
+    %h3
+      Goodbye for now.

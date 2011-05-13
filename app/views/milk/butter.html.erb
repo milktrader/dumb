@@ -1,2 +1,26 @@
-<h1>Milk#butter</h1>
-<p>Find me in app/views/milk/butter.html.erb</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>"butter"</title>
+    <%= csrf_meta_tag %>
+    <%= stylesheet_link_tag 'blueprint/screen', :media => "screen" %>
+    <%= stylesheet_link_tag 'blueprint/print', :media => "print" %>
+</head>
+<div class="container">
+    <h3>stylesheet_link_tag</h3>
+    <p>This function passes in the stylesheet</p>
+    <p>takes first argument in single quotes and
+       second argument in hash</p>
+    
+    <h3>csrf_meta_tag</h3>
+    <p>This function passes protects against forgery</p>
+    <p>takes no arguments</p>
+    
+    <h3>div class="container"</h3>
+    <p>div creates a section</p>
+    <p>class takes the argument container</p>
+</div>
+
+
+</html>
+

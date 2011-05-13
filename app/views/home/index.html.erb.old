@@ -1,0 +1,9 @@
+!!! Strict
+
+%html
+  %title My Dumb Website
+  %head
+    %body
+      Hello World from haml
+  
+

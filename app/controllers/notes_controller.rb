@@ -26,4 +26,6 @@ class NotesController < ApplicationController
   def heroku
   end
 
+  def todo
+  end
 end

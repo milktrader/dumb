@@ -21,6 +21,8 @@ Dumb::Application.routes.draw do
   get "notes/css"
 
   get "notes/heroku"
+  
+  get "notes/todo"
 
   get "milk/cheese"
   get "milk/butter"

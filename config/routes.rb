@@ -1,4 +1,27 @@
 Dumb::Application.routes.draw do
+  
+  # this next line is my hack to avoid a RESTful call to resources
+  
+  match "/notes" => redirect("/notes/index")
+  
+  get "notes/index"
+
+  get "notes/new"
+
+  get "notes/git"
+
+  get "notes/rspec"
+
+  get "notes/model"
+
+  get "notes/controller"
+
+  get "notes/view"
+
+  get "notes/css"
+
+  get "notes/heroku"
+
   get "milk/cheese"
   get "milk/butter"
   get "milk/cream"

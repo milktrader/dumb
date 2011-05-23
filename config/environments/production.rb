@@ -1,4 +1,12 @@
 Dumb::Application.configure do
+
+### added to solve issue with css file not being loaded
+
+# config.serve_static_assets = true
+
+
+
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.

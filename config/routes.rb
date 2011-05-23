@@ -4,6 +4,7 @@ Dumb::Application.routes.draw do
   get "milk/butter"
 
   get "milk/cream"
+  get "milk/blue"
 
   get "home/index"
 

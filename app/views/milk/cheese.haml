@@ -1,17 +1,16 @@
-!!! Strict
-
-%html
-  %head
-    = csrf_meta_tag 
-    = stylesheet_link_tag 'blueprint/screen', :media => "screen" 
-    = stylesheet_link_tag 'blueprint/print',  :media => "print" 
-    = stylesheet_link_tag 'cheese',           :media => "screen" 
-  .container
-  %body
-    %h1 Hello World from haml
-    %ul
-      %li cheddar
-      %li brie
-  %footer
-    %h3
-      Goodbye for now. 
+.example
+  #layout
+    #header
+      %h1 Sticky Footer Example
+ 
+    %p
+      This is the main content area.
+    %p
+      In this example you should pretend that the red box
+      is actually the browser window.
+    %p
+      Because, being a contrived example, it's not actually sticking
+      to the bottom of the page.
+    #layout_footer
+  #footer
+    This is the footer area.

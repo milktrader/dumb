@@ -8,4 +8,6 @@ class MilkController < ApplicationController
   def cream
   end
 
+  def breadcrumbs
+   end
 end

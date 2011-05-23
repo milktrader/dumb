@@ -1,0 +1,17 @@
+%html
+  %title
+    =@title
+  %head    
+  %body
+    .container
+      
+      
+      %section 
+        %p I'm not sure how much progress I'm making here.
+        %p First, my dumb nav buttons refuse to float right without leaving the header space. That's not cool.
+        %p Second, I think my git branch probably messed up the master but I'm not sure. That also is not good.
+        %p And to top things off, I have absolutely no testing suite setup. This means that all manner of weird things could happen and I would not be the wiser. To illustrate, touch the cheese link and you'll get to my cheese page, which is basically a stub. But then you get presented with the same nav links and by selecting it again, you get routed to someplace that doesn't exist. Which is an interesting existential quandary to ponder, but serves no functional purpose.
+        %p I am happy to say that I've figured out a little about how CSS files work and how to use haml to replace the verbose HTML. I'll be back with some more improvements soon. My algorithms are having a jolly time watching me squirm over here. I can hear the breathless, knee-slapping sound that they often make when they're having fun.
+      
+                 
+       

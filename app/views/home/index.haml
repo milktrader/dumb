@@ -6,5 +6,10 @@
     .container
       %section 
         %p I mispoke when I said that <code>haml</code> replaces <code>HTML</code>. Nothing can replace <code>HTML</code>. The nifty <code>haml</code> simply translates its code into <code>HTML</code> code. It abstracts the ugly into pretty. This is important if you must keep your mind on beauty, which applies to most of us, algorithms included.
-        %p I'm thinking to leave bread crumbs on this trail. In fact, that is what I will do. Behold a new nav link (that works but one time) named: <code>breadcrumbs</code>.
-        %p I will leave there some notes on how I got this far. Still to do is implement <code>Rspec</code> and get a handle on what <code>sass</code> actually does for me. Also, this concept of <code>container</code> is quite puzzling and I need to get a grip on it. On a longer horizon, I'd like to get a blog format going complete with comments, so faithful viewers can leave stupid comments about my dumb website. This would be quite fitting. Yes, indeed it will be so.
+        %p I'm thinking to leave bread crumbs on this trail. In fact, that is what I will do. Behold a new nav link (that works this time) named: <code>breadcrumbs</code>. My previous error in nav links was to assign the url of <code>'milk/cheese'</code> to the <code>link_path</code> Rails function (they call this a helper method, which is strange nomenclature). The correct assignment of url path to the link is to start at root and write it thusly: <code>'/milk/cheese'</code>. In any case, I've got it now.
+        %p I'm starting to use the links to document various processes. It's sort of random but so is this entire enterprise, so I think there is congruity in this approach.  On the short-term horizon:
+        %ul
+          %li <code>Rspec</code> implementation.
+          %li Get a handle on what <code>sass</code> actually does for me.
+          %li Grasp the concept of <code>container</code> class. 
+          

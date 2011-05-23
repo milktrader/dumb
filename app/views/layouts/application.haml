@@ -11,18 +11,20 @@
         =image_tag("dumb_small.png", :alt => "noob", :class => "round")
         %h2 this is my dumbwebsite
         %nav                                             
-          %ul                                                      
+          %ul  
             %li                                                    
-            =link_to  "cheese", 'milk/cheese'                      
+            =link_to  "Home", '/'                                                    
             %li                                                    
-            =link_to  "butter", 'milk/butter'                      
+            =link_to  "cheese", '/milk/cheese'                      
             %li                                                    
-            =link_to  "cream", 'milk/cream'  
+            =link_to  "butter", '/milk/butter'                      
             %li                                                    
-            =link_to  "breadcrumbs", 'milk/breadcrumbs'                      
+            =link_to  "cream", '/milk/cream'  
+            %li                                                    
+            =link_to  "breadcrumbs", '/milk/breadcrumbs'                      
                                                          
       %section   
       = yield    
     
       
-  #footer &copy; Copyright 2011 milktrader 
+  / #footer &copy; Copyright 2011 milktrader 

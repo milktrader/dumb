@@ -1,0 +1,11 @@
+%html
+  %title
+    =@title
+  %head    
+  %body
+    .container
+      %section 
+        %h2 version 0.05
+        %p I've eliminated the milk pages in favor of the notes pages. Also, I've made it a functional thing by putting my notes there (surprise, I know) about how to do certain things. To celebrate, let's have a smoke and a drink, as gentlemen are wont to do.
+        =image_tag 'Dancing-Bear.jpg'
+          

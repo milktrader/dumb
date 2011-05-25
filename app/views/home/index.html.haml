@@ -1,11 +1,28 @@
 %html
   %title
     =@title
-  %head    
   %body
     .container
+      / .showgrid
       %section 
-        %h2 version 0.05
-        %p I've eliminated the milk pages in favor of the notes pages. Also, I've made it a functional thing by putting my notes there (surprise, I know) about how to do certain things. To celebrate, let's have a smoke and a drink, as gentlemen are wont to do.
-        =image_tag 'Dancing-Bear.jpg'
-          
+        %h2 version 0.06
+        %h2 My algorithms are coming to visit so I need to raise some money (notice the donate button)
+        
+        %div.span-20 
+          %p I don't really feel at home, but somehow I feel I'm in the right place. The world where my algorithms live is quite deterministic I'm finding out. There is a result to an action, and it is the same result every time. I'm struggling a bit with the code, but it's not too bad. I got my gall bladder issue resolved (this was an unfortunate result of my journey into this land of ones and zeroes), and I'm noticing that my heart palpitations are beginning to subside. Fairly soon, I'll be able to visit with the trading algorithms who tricked me into coming here in the first place. I haven't seen them yet, but I can almost sense they're nearby. Who knows what mischief they have in store for me.
+          %p I'm thinking that once my little friends show up, I'll be able to bribe them to let me out. I've set up a donation button for this very purpose. I'm not sure it'll work, but it's worth a shot. 
+          %p My to do list hasn't made much progress, but I've filled out some of the stubs there. I've also created a <code>bug</code> link in case the donation scheme doesn't pan out. It's a stub for now, but I plan to use it as a trap in the future. Please, let's keep this to ourselves for now.  
+        
+        %div.span-4.last
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="milktrader@gmail.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="mydumbwebsite">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/WEBSCR-640-20110429-1/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        

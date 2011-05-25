@@ -1,0 +1,8 @@
+%header
+   =image_tag("dumb_small.png", :alt => "noob", :class => "round")
+   %nav.round                                            
+     %ul  
+       %li.link_to "Home", '/'                                                  
+       =link_to  "Home", '/'                                                    
+       %li                                                    
+       =link_to  "Notes", '/notes/index' 

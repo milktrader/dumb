@@ -1,23 +1,30 @@
 !!! Strict 5
 %html
-  .container
-    %head
-      = csrf_meta_tag 
-      = stylesheet_link_tag 'blueprint/screen', :media => 'screen' 
-      = stylesheet_link_tag 'blueprint/print',  :media => 'print' 
-      = stylesheet_link_tag 'stinky/velveeta', :media => 'screen'  
-    %body
-      %header 
-        =image_tag("dumb_small.png", :alt => "noob", :class => "round")
-        %h2 this is my dumbwebsite
-        %nav                                             
-          %ul  
-            %li                                                    
-            =link_to  "Home", '/'                                                    
-            %li                                                    
-            =link_to  "Notes", '/notes/index'                      
-      %section   
-      = yield    
-    
+  %head
+    = csrf_meta_tag 
+    = stylesheet_link_tag 'blueprint/screen', :media => 'screen' 
+    = stylesheet_link_tag 'blueprint/print',  :media => 'print' 
+    = stylesheet_link_tag 'stinky/velveeta', :media => 'screen'  
+  %body.container
+    %header 
+      =image_tag("dumb_small.png", :alt => "noob", :class => "round")
+      =image_tag("bee.png", :alt => "bee", :class => "round", :size => "50x50")
+      =image_tag("ladybug.gif", :alt => "bug", :class => "round", :size => "50x50")
+      =image_tag("gnat.gif", :alt => "gnat", :class => "round", :size => "50x50")
+      =image_tag("fire.jpg", :alt => "firefly", :class => "round", :size => "50x50")
+      =image_tag("quito.png", :alt => "quito", :class => "round", :size => "50x50")
+      =image_tag("monkey.gif", :alt => "monkey", :class => "round", :size => "50x50")
+      %nav                                             
+        %ul  
+          %li                                                    
+          =link_to  "Home", '/'                                                    
+          %li                                                    
+          =link_to  "Notes", '/notes/index'                      
+      %h2 this is my dumbwebsite 
+    %section   
+    = yield    
+    %footer
+      %h3 © Copyright Milktrader 2011
+
       
   / #footer &copy; Copyright 2011 milktrader 

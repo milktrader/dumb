@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @title = "Welcome To The Dairy"
+    @title = "My Dumb Website | Home"
   end
 
 end

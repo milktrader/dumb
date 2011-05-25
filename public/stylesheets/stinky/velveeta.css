@@ -1,18 +1,68 @@
-html, body, .container { 
-	height: 100%; 
-	background: #CCCCCC;
-	}
-
-header {
-  background: #8FD8D8;
-  
+/*html, body, .container { 
+  height: 100%; 
+  background: white;
+  }
+*/
+header 
+{
+  background: white;
 }
-body > #container { 
-	height: auto; 
-	min-height: 100%; 
-	}
+
+/*body > #container { 
+  height: auto; 
+  min-height: 100%; 
+  }
+  */
+/*other steal  */
 	
+header {
+  padding-top: 10px;
+}	
 	
+header img {
+  padding: 1em;
+  background: white;
+}	
+	
+/*nav steal*/
+	
+/*nav {
+  float: right;
+}
+
+nav {
+  background-color: lime;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+*/
+
+
+/*other stuff*/
 code.cool {
   padding: 2px 5px; 
   border: 1px solid white;
@@ -26,7 +76,7 @@ code.border {
 }
 
 nav {
-  float: inherit;
+  float: right;
   padding: 1em;
 }
 
@@ -44,6 +94,7 @@ p {
 	
 	
 #footer {
+  color: lime;
 	clear: both;                 
 	position: relative;          
 	z-index: 10;                 
@@ -51,9 +102,17 @@ p {
 	margin-top: -2em; 
 /*  margin-left: 7em;*/
 	padding-left: 150px;
-	background:#B2DFEE;           
+	background: lime;           
 	}
 	
 #content {
   padding-bottom: 3em; 
   }
+  
+  
+  
+/*my own stuff  */
+
+h1, h2, h3
+{
+  

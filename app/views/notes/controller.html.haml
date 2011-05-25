@@ -1,2 +1,7 @@
-%h1 Notes#controller
-%p Find me in app/views/notes/controller.html.haml
+%section
+%h1 Notes on adding a Controller
+%p To add a new controller, we consider the following
+%ul
+  %li <code>$ rails generate controller Notes git rspec css</code>
+  %li <code>$ rails destroy controller Notes git rspec css</code>
+  %li <code> rails generate</code> creates an <code>app/views/notes_controller.rb file</code> and an <code>app/views/notes</code> folder of files that are the arguments passed after <code>Notes</code> and adds code to <code>config/routes.rb</code>

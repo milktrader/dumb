@@ -63,35 +63,69 @@ nav ul li a:hover {
 
 
 /*other stuff*/
-code.cool {
-  padding: 2px 5px; 
-  border: 1px solid white;
-  background-color: blue;
-}	
-	
-code.border {
-  border-style: solid; 
-  border-color: white;
-  border-width: thick;
-}
 
-nav {
-  float: right;
-  padding: 1em;
-}
-
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
+code
+{
+  background-color: #D3D3D3;
   
 }
 
-p {
-  font-size: 130%;
+	
+
+
+
+nav 
+{
+  padding-left: 100px;
+  font-size: 120%;
+  border-width: 3px;
+  border-color: #E2E7E9;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  line-height: 1.4em;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+
 }
 
 
+ul
+{
+  margin: 5px;
+}
+
+nav ul li 
+{  
+
+ list-style-type: none;
+ display: inline-block;
+ padding-left: 25px;
+
+}
+
+a {
+
+  color:gray;
+  text-decoration:none;
+   
+}
+
+p {
+  font-size: 130%; 
+}
+
+
+h2 {
+  margin: 15px;
+}	
+
+h4 {
+  margin: 15px;
+}
 	
+p {
+  margin: 15px;
+}	
 	
 #footer {
   color: lime;
@@ -108,11 +142,3 @@ p {
 #content {
   padding-bottom: 3em; 
   }
-  
-  
-  
-/*my own stuff  */
-
-h1, h2, h3
-{
-  

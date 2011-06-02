@@ -1,5 +1,6 @@
 class NotesController < ApplicationController
   def index
+    @title = "My Dumb Website | Notes Index"
   end
 
   def new

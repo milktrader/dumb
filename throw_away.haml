@@ -1,9 +1,7 @@
-!!! Strict
+Failures:
 
-%html
-  %head I am the head
-  %body I am the body
-  %footer
-    %h5 I am the foot
-    
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  1) NotesController GET 'index' should have the right title
+     Failure/Error: response.should have_selector("title",
+       expected following output to contain a <title>My Dumb Website | Notes Central</title> tag:
+       <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+     # ./spec/controllers/notes_controller_spec.rb:13:in `block (3 levels) in <top (required)>'

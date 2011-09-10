@@ -14,6 +14,9 @@
       =image_tag("fire.jpg", :alt => "firefly", :class => "round", :size => "50x50")
       =image_tag("quito.png", :alt => "quito", :class => "round", :size => "50x50")
       =image_tag("monkey.gif", :alt => "monkey", :class => "round", :size => "50x50")
+      =image_tag("dolphin.jpg", :alt => "dolphin", :class => "round", :size => "50x50")
+      =image_tag("pelican.jpg", :alt => "pelican", :class => "round", :size => "50x50")
+      =image_tag("snake.jpg", :alt => "snake", :class => "round", :size => "50x50")
       %nav                                             
         %ul  
           %li                                                    
@@ -21,19 +24,22 @@
           %li  
             =link_to  "BUGS", '/notes/index'                      
           %li  
-            =link_to  "ANIMALS", '/notes/index'                      
+            =link_to  "EXHIBITS", '/notes/index'                      
           %li  
             =link_to  "CONCESSIONS", '/notes/index'  
           %li  
             =link_to  "RIDES", '/notes/index'                                            
           %li
             =link_to  "SECRET LAB", '/notes/index'                      
-            
-      %h2 this is my dumbwebsite 
     %section   
     = yield    
     %footer
-      %h3 © Copyright Milktrader 2011
+      %ul
+        %li  
+          %p.footer © copyright Milktrader 2011
+        %li
+          =image_tag("twitter.png", :alt => "twitter", :class => "round", :size => "10x10")                  
+        
 
       
   / #footer &copy; Copyright 2011 milktrader 
